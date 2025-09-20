@@ -9,6 +9,7 @@ public class Program3 {
 	}
 public static void main(String[] args) {
 	Scanner sc = new Scanner(System.in);
+	System.out.println("enter number: ");
 	int a = sc.nextInt();
 	a = fun(a);
 	int i = 1,c = 0;
@@ -25,5 +26,6 @@ public static void main(String[] args) {
 	sc.close();
 }
 }
+
 
 
