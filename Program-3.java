@@ -1,4 +1,3 @@
-
 import java.util.Scanner;
 public class Program3 {
 	public static int fun(int n) {
@@ -26,4 +25,5 @@ public static void main(String[] args) {
 	sc.close();
 }
 }
+
 
