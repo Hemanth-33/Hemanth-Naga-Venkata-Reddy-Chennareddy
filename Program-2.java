@@ -2,7 +2,8 @@ import java.util.Scanner;
 public class Program2 {
 public static void main(String[] args) {
 	Scanner sc = new Scanner(System.in);
-	int a = sc.nextInt();
+	System.out.println("enter number: ");
+	int a = sc.nextInt(); 
 	int i = 1,c = 0;
 	while(c < a-1) {
 		System.out.print(i + ", ");
@@ -17,4 +18,5 @@ public static void main(String[] args) {
 	sc.close();
 }
 }
+
 
